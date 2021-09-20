@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+canvas {
+    margin-top: -5%;
+    border-radius: 5px;
+    background-color: khaki;
+}
+
+.header {
+    width: 75% !important;
+    font-size: x-large;
+}
+
+.header,
+.object,
+.input,
+#status,
+#objStatus {
+    color: black !important;
+    width: fit-content;
+    background: pink;
+    border: 2px double black;
+    border-radius: 5px;
+}
+
+.input {
+    width: 75%;
+}
+
+#status,
+#objStatus {
+    display: inline;
+}
+
+.start{
+    font-size: medium;
+    width: 100px;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
